@@ -7,7 +7,7 @@
   "description": "A tiny script to quick share page setting via URL GET parms ",
   "repository": "https://github.com/s-a/link.js.git",
   "license": "MIT & GPL",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
