@@ -20,3 +20,8 @@ link.js aims to quick share settings over pages via URL GET parms.
 	console.log(setup || "no setup given.");
 	document.getElementById("test").href = lnk.href(newSetup);
 ```
+
+# install
+
+```npm install link.js```  
+```bower install link.js```
