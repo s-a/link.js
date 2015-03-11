@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Take a look at console logging...</h1>
+
+	<a href="#" id="test">test link</a>
+	<script type="text/javascript" src="lnk.js"></script>
+	<script type="text/javascript">
+		var lnk = new window.LNK({settingsGetParmName: "aaa"});
+		var setup = lnk.fetchSettings();
+		var newSetup = {
+			"hello" : "world"
+		};
+
+		console.log(setup || "no setup given.");
+		document.getElementById("test").href = lnk.href(newSetup);
+	</script>
+</body>
+</html>
