@@ -21,8 +21,13 @@
 			config = {};
 		}
 		this.settingsGetParmName = config.settingsGetParmName || "q";
+		this.raw = urlParms();
 
 		return this;
+	};
+
+	LNK.prototype.get = function(parmName) {
+		return decodeURIComponent(urlParms()[parmName]);
 	};
 
 
