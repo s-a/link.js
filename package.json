@@ -5,7 +5,7 @@
   "name": "link.js",
   "description": "A tiny script to quick share page setting via URL GET parms ",
   "repository": "https://github.com/s-a/link.js.git",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
     "test": "mocha"
   },
